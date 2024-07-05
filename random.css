@@ -1,0 +1,135 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Anta, sans-serif;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FFD23F;
+}
+
+.container{
+    background-color: #F57D1F;
+    width: 600px;
+    border-radius: 15px;
+    padding: 30px 30px 25px;
+    
+}
+
+.header{
+    color: #ffff;
+    text-align: center;
+    font-family: Anta, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.content{
+    margin: 20px;
+}
+
+.qoute-area{
+    display: flex;
+    text-align: center;
+    color: #fff;
+
+    
+}
+
+.qoute-area i{
+    font-size: 15px;
+}
+
+.qoute-area i:first-child{
+    margin: 22px 10px 0 0;
+}
+
+.qoute-area i:last-child{
+    display: flex;
+    align-items: flex-end;
+    margin:0 0 20px 0;
+}
+
+.qoute-area .quote{
+    font-size: 20px;
+    text-align: center;
+    word-break: break-all;
+
+}
+
+.author{
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+    color: #fff;
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.author span:first-child{
+    margin: -7px 5px 0 0;
+}
+
+
+.container .buttons{
+    border-top: 1px solid #FFD23F;
+}
+
+
+.buttons .features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.features ul{
+    display: flex;
+    
+}
+
+.features ul li{
+    list-style: none;
+    margin: 0 5px;
+    height: 47px;
+    width: 48px;
+    color: #FFD23F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 2px solid #FFD23F;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+}
+
+.features ul li:hover{
+    color: #fff;
+    background-color: #FFD23F;
+}
+
+.features button{
+    border: none;
+    padding: 10px 22px;
+    color: #fff;
+    background-color: #FFD23F;
+    font-family: Anta, sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: all 0.4s ease-out;
+}
+
+button:hover{
+   background-color:#fff;
+   color: #000;
+}
